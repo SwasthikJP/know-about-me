@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500&family=Roboto:wght@100;300;400;500&display=swap');
+
+*{
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    padding: 0%;
+}
+
+body{
+    background-color: lightgray;
+}
+h1{
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    font-size: 2.9vw;
+   
+}
+hr{
+ 
+  border-width: 0;
+ background-color: rgb(75, 197, 154);
+  height: 4px;
+  width: 80%;
+  margin-right: auto;
+  margin-left: auto;
+}
+h2{
+    font-size: 2.5vw;
+    display: flex;
+}
+
+
+
+ol{
+    margin: 1.8vw 0vw;
+    font-size: 1.7vw;
+    
+}
+
+ul{
+    margin: 1.8vw 0vw;
+    font-size: 1.6vw;
+    list-style-type:disc;
+    
+}
+
+p{
+    font-size: 1.9vw;
+   font-weight: 400;
+}
+
+table{
+    margin-top: 2vw;
+    font-size: 1.4vw;
+}
+
+table,td{
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+td{
+    padding: 1vw;
+    background-color: rgb(205, 226, 220);
+}
+
+
+.emoji{
+    transition: transform 1s ;
+   
+}
+.emoji:hover{
+    transform: rotate(90deg);
+    transform-origin: center center;
+}
+
+nav{
+    background-color: black;
+display: flex;
+padding: 2vw 3.5vw;
+width: 100%;
+display: flex;
+justify-content: space-around;
+align-items: center;
+margin-bottom: 5vw;
+}
+
+.nav_bar{
+    width: 40%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.nav_link{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 1.65vw;
+}
+
+.nav_link:hover{
+    color: rgb(117,235,194);
+}
+
+
+.about_me{
+    display: flex;
+    width: 100%;
+    padding: 0vw 5vw;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.profile_image{
+    width: 29vw;
+}
+
+.bio{
+    width: 50%;
+}
+
+#hobbies{
+    margin: 5vw 10vw;
+}
+
+#qualifications{
+    margin: 5vw 10vw;
+}
+
+.foods{
+    margin: 5vw 10vw;
+}
+
+.strengths{
+    margin: 5vw 10vw;
+}
+
+#achievements{
+    margin: 5vw 10vw;
+}
+#achievements  p{
+  margin-top: 1.8vw;
+}
+
+.github_link{
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    padding: 0.5vw 0.5vw;
+}
+
+.github_link:hover{
+    color: rgb(117,235,194);
+    
+}
+
+footer p{
+    text-align: center;
+    font-size: 1.35vw;
+   
+}
+footer{
+    background-color:rgb(69, 202, 156);
+    padding: 1.3vw;
+}
