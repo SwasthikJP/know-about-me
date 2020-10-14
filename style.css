@@ -111,9 +111,23 @@ margin-bottom: 5vw;
     align-items: center;
 }
 
-.profile_image{
-    width: 29vw;
+#profile_image{
+    max-width: 29.5vw;
+    max-height: 44vw;
+    overflow-x: hidden;
 }
+
+button{
+    border: 0;
+    margin: 0%;
+    padding: 0;
+
+ outline: none;
+ background-color: lightgray;
+
+}
+
+
 
 .bio{
     width: 50%;
@@ -130,6 +144,8 @@ margin-bottom: 5vw;
 .foods{
     margin: 5vw 10vw;
 }
+
+
 
 .strengths{
     margin: 5vw 10vw;
